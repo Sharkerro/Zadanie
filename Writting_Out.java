@@ -1,10 +1,22 @@
 public class Writting_Out {
-    public  void writting(Figure figure)
+    public  void writting1(Triangle t)
     {
-        figure.calculatePerimeter();
+        t.calculatePerimeter();
 
-        figure.calculateArea();
-        figure.print();
+        t.calculateArea();
+        t.print();
+    }
+    public void writting2(Square s)
+    {
+        s.calculatePerimeter();
+        s.calculateArea();
+        s.print();;
+    }
+    public void writting3(Circle c)
+    {
+        c.calculatePerimeter();
+        c.calculateArea();
+        c.print();
     }
 
 
